@@ -1,0 +1,39 @@
+{
+  "name": "consulta-fornecedores",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "netlify-lambda serve ./src/lambdas",
+    "build": "netlify-lambda build ./src/lambdas"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AhmadForhat/consultaFornecedores"
+  },
+  "keywords": [],
+  "author": "Ahmad Forhat",
+  "license": "ISC",
+  "dependencies": {
+    "@middy/core": "^1.0.0-beta.6",
+    "@middy/http-cors": "^1.0.0-beta.6",
+    "@middy/http-error-handler": "^1.0.0-beta.6",
+    "@middy/http-json-body-parser": "^1.0.0-beta.6",
+    "@middy/http-urlencode-body-parser": "^1.0.0-beta.6",
+    "@ziro/array-object": "^1.0.0",
+    "@ziro/decimal-usa": "^1.0.1",
+    "@ziro/middleware": "^1.0.4",
+    "@ziro/object-array": "^1.0.2",
+    "@ziro/string-to-date": "^1.0.0",
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "http-errors": "^1.7.3",
+    "netlify-lambda": "^1.6.3",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.8"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.43",
+    "ava": "^3.1.0",
+    "eslint": "^6.8.0"
+  }
+}
