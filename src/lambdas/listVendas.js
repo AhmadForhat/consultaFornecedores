@@ -1,7 +1,7 @@
 const rp = require('request-promise-native')
 const arrayObject = require('@ziro/array-object')
 const stringToDate = require('@ziro/string-to-date')
-const optionsBatchGet = require('../googlesheets/optionsbatchGet')
+const optionsBatchGet = require('../apoio/googlesheets/optionsbatchGet')
 const main = require('../templates/main')
 require('dotenv').config()
 
