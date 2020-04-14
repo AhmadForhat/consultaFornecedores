@@ -14,11 +14,11 @@
   "author": "Ahmad Forhat",
   "license": "ISC",
   "dependencies": {
-    "@middy/core": "^1.0.0-beta.6",
-    "@middy/http-cors": "^1.0.0-beta.6",
-    "@middy/http-error-handler": "^1.0.0-beta.6",
-    "@middy/http-json-body-parser": "^1.0.0-beta.6",
-    "@middy/http-urlencode-body-parser": "^1.0.0-beta.6",
+    "@middy/core": "^1.0.0-beta.8",
+    "@middy/http-cors": "^1.0.0-beta.8",
+    "@middy/http-error-handler": "^1.0.0-beta.8",
+    "@middy/http-json-body-parser": "^1.0.0-beta.8",
+    "@middy/http-urlencode-body-parser": "^1.0.0-beta.8",
     "@ziro/array-object": "^1.0.0",
     "@ziro/decimal-usa": "^1.0.1",
     "@ziro/middleware": "^1.0.4",
@@ -28,7 +28,7 @@
     "dotenv": "^8.2.0",
     "http-errors": "^1.7.3",
     "netlify-lambda": "^1.6.3",
-    "request": "^2.88.0",
+    "request": "^2.88.2",
     "request-promise-native": "^1.0.8"
   },
   "devDependencies": {

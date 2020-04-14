@@ -742,38 +742,38 @@
   dependencies:
     arrify "^1.0.1"
 
-"@middy/core@^1.0.0-beta.6":
-  version "1.0.0-beta.6"
-  resolved "https://registry.yarnpkg.com/@middy/core/-/core-1.0.0-beta.6.tgz#7886c487d00a5d022081296018f2f32e84bd55f5"
-  integrity sha512-2DfDcvKtt31NPg1SdE5wZm5RAtx88jbvVXvD1zgn+pTHvNq3s1ymhs9b3NgbqeOn56kcMGOqClMox4fXmcjDFw==
+"@middy/core@^1.0.0-beta.8":
+  version "1.0.0-beta.8"
+  resolved "https://registry.yarnpkg.com/@middy/core/-/core-1.0.0-beta.8.tgz#41b4fe157b1012e478bc6ffc92228a7a29648b90"
+  integrity sha512-5BuhpZLT7MVzNGlIecvxAF8/DP6C5x99GH/M4fUXTt3kbg44+Vmc0ucEXZSt0otyjAb/LYYjs2Kwy+dMLZcwSQ==
   dependencies:
     once "^1.4.0"
 
-"@middy/http-cors@^1.0.0-beta.6":
-  version "1.0.0-beta.6"
-  resolved "https://registry.yarnpkg.com/@middy/http-cors/-/http-cors-1.0.0-beta.6.tgz#5cd665a5eb41188646367f476ee9ae77aa7841f0"
-  integrity sha512-L394OTl0iUI2Fw5GSWQuam6HClo1D9bvXFK03kOUd6yDpINn2BZkkzveVtQ/sRPbVssgagmeuQH15PBYJa4XZg==
+"@middy/http-cors@^1.0.0-beta.8":
+  version "1.0.0-beta.8"
+  resolved "https://registry.yarnpkg.com/@middy/http-cors/-/http-cors-1.0.0-beta.8.tgz#448d522f881d3e7663de4d0a05c42f75530c4af2"
+  integrity sha512-iomNEIs0xqHUPE5xFBpq/kE8i4tjwAt4vlEY65/3deZwJiyThF5YNrS64ReTieRNIrWB4uPi7n2QhEjkuhO2hw==
 
-"@middy/http-error-handler@^1.0.0-beta.6":
-  version "1.0.0-beta.6"
-  resolved "https://registry.yarnpkg.com/@middy/http-error-handler/-/http-error-handler-1.0.0-beta.6.tgz#e96795fb2d0224820385924104e5f4b75827087f"
-  integrity sha512-olPIkWbmnNcJXFZwn7nASv05AucBfIFAfvkXtg5KCoDsCjhIHMiMm2lpVHA1NdwJSp0nRs6wCTRe/Ew9DRwNzA==
+"@middy/http-error-handler@^1.0.0-beta.8":
+  version "1.0.0-beta.8"
+  resolved "https://registry.yarnpkg.com/@middy/http-error-handler/-/http-error-handler-1.0.0-beta.8.tgz#760084fdc999d06f36a7ca5637d085f107de316d"
+  integrity sha512-sa/LX379GWdkrRdjgHtz+U17AnCxQmvp3TqUcatXrhaaXi/4IV2APDLJ2vy0zt1/rNY+ieg3Z3SSjUrPwOAAEQ==
   dependencies:
     http-errors "^1.6.3"
 
-"@middy/http-json-body-parser@^1.0.0-beta.6":
-  version "1.0.0-beta.6"
-  resolved "https://registry.yarnpkg.com/@middy/http-json-body-parser/-/http-json-body-parser-1.0.0-beta.6.tgz#d301130f3c4199cc932fe0aefb2c8dd3cb8c4568"
-  integrity sha512-4lU3NMkGxjcGac0c0y9pM2UWqoVbF2J8dMYVozcZl05qx/NSBtn9fqUXyNpyJfe7YclZsFFNMWBafjHlzNJOdQ==
+"@middy/http-json-body-parser@^1.0.0-beta.8":
+  version "1.0.0-beta.8"
+  resolved "https://registry.yarnpkg.com/@middy/http-json-body-parser/-/http-json-body-parser-1.0.0-beta.8.tgz#54f5985784b3fac6137658aa0ca021c9f4dba5b3"
+  integrity sha512-4ItpHybZOBOi1pUUDipsjck2HhLtyK5OtzHC24on/4OvC/VqQe1va0Gs7IKt0ul1ot6OXkMOe/Kw0LH5t9Gvgg==
   dependencies:
     "@types/http-errors" "^1.6.1"
     content-type "^1.0.4"
     http-errors "^1.6.3"
 
-"@middy/http-urlencode-body-parser@^1.0.0-beta.6":
-  version "1.0.0-beta.6"
-  resolved "https://registry.yarnpkg.com/@middy/http-urlencode-body-parser/-/http-urlencode-body-parser-1.0.0-beta.6.tgz#d1e0917d3c7404cce90180dc41043b5a3ad02f16"
-  integrity sha512-a4XxR4/pAHmn4ySa+o3Dy4xvWHYI3cuW3VLwV/PuH/Cksgoin1LuZcU3dUKVr+mCk1zuvUPzK4EvDh3el1Z+Ew==
+"@middy/http-urlencode-body-parser@^1.0.0-beta.8":
+  version "1.0.0-beta.8"
+  resolved "https://registry.yarnpkg.com/@middy/http-urlencode-body-parser/-/http-urlencode-body-parser-1.0.0-beta.8.tgz#c55a77e7de2bfed00155a8c73c3bbd65d0fd8f88"
+  integrity sha512-/gvAYrFWt2nneNYcrEIV1IQkUZuDe1xuLTsSjvorR8jJBDlKuw2E9jPdotm01K/1gr5qrRw+D/ft+c1960y/6A==
   dependencies:
     "@types/http-errors" "^1.6.1"
     content-type "^1.0.4"
@@ -4780,7 +4780,7 @@ request-promise-native@^1.0.8:
     stealthy-require "^1.1.1"
     tough-cookie "^2.3.3"
 
-request@^2.88.0:
+request@^2.88.2:
   version "2.88.2"
   resolved "https://registry.yarnpkg.com/request/-/request-2.88.2.tgz#d73c918731cb5a87da047e207234146f664d12b3"
   integrity sha512-MsvtOrfG9ZcrOwAW+Qi+F6HbD0CWXEh9ou77uOb7FM2WPhwT7smM833PzanhJLsgXjN89Ir6V2PczXNnMpwKhw==
